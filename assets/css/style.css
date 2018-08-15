@@ -1,0 +1,38 @@
+body {
+    background-image: url("../images/marvel.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Bangers';
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.container {
+    background-color: white;
+    position: relative;
+    top: 5vw;
+    left: 5px;
+    height: 80%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 3em;
+}
+
+#startGame {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.answers {
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin: 10px;
+}
