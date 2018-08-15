@@ -52,35 +52,37 @@ $(document).ready(function () {
 
 
         gifs: [
-            '<img src="https://media.giphy.com/media/3CGD3FtKx6Zpu/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/eI4LekQoZUElW/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/WJZdOtltegO76/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/gVHdWaV7V5KXS/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/ksIjcjPao6OVq/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/Oj8SHfNt9w6Gc/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/qzTqP13pJqAKI/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/8xHpZTacWUREs/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/WhpXq4eUMC0Uw/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/Nmmb3MW2tABiw/giphy.gif" width="250" height="150" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/3CGD3FtKx6Zpu/giphy.gif" width="350" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/eI4LekQoZUElW/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/WJZdOtltegO76/giphy.gif" width="350" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/gVHdWaV7V5KXS/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/ksIjcjPao6OVq/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/Oj8SHfNt9w6Gc/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/qzTqP13pJqAKI/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/8xHpZTacWUREs/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/WhpXq4eUMC0Uw/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/Nmmb3MW2tABiw/giphy.gif" width="325" height="200" alt="loading..." />',
         ],
 
         correctGifs: [
-            '<img src="https://media.giphy.com/media/Is1O1TWV0LEJi/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/14udF3WUwwGMaA/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/yoJC2GnSClbPOkV0eA/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/1136UBdSNn6Bu8/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/tyxovVLbfZdok/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/u33BcMbqQmJGg/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/qmEboC2VVjBgQ/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/PTrmNrpCfGBUY/giphy.gif" width="250" height="150" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/3rgXBQBQyt98Dvh1sI/giphy.gif" width="250" height="150" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/Is1O1TWV0LEJi/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/14udF3WUwwGMaA/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/yoJC2GnSClbPOkV0eA/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/1136UBdSNn6Bu8/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/tyxovVLbfZdok/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/u33BcMbqQmJGg/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/qmEboC2VVjBgQ/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/PTrmNrpCfGBUY/giphy.gif" width="325" height="225" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/3rgXBQBQyt98Dvh1sI/giphy.gif" width="325" height="200" alt="loading..." />',
         ]
     };
 
     $(".answers").hide();
+    $("#playAgain").hide();
 
     var counter = 0;
+    var counter1 = 0;
     var counter2 = 0;
     var counter3 = 0;
     var counter4 = 0;
@@ -88,18 +90,19 @@ $(document).ready(function () {
     var counter6 = 0;
     var correct = 0;
     var wrong = 0;
-    var time = 16;
     var intervalID;
-    var intervalID2;
 
 
-    // code is correct
     function question() {
         $("#question").text(gameInfo.questions[counter]);
         counter++;
+        counter1++;
+        console.log(counter1);
+        if(counter1 === 11) {
+            endGame();
+        }
     }
 
-    // code is correct
     function answers() {
         $("#answer1").text(gameInfo.answers.answerChoices.a[counter2].answer).val(gameInfo.answers.answerChoices.a[counter2].iscorrect);
         $("#answer2").text(gameInfo.answers.answerChoices.b[counter2].answer).val(gameInfo.answers.answerChoices.b[counter2].iscorrect);
@@ -112,16 +115,22 @@ $(document).ready(function () {
     // function that says "Wrong!" if wrong answer is selected
     function wrongAnswerAlert() {
         $("#question").text("Wrong!");
-        $("#correctAnswer").text("Correct Answer: " + gameInfo.answers.correctAnswers.correct[counter3]);
+        $("#correctAnswer").show().text("Correct Answer: " + gameInfo.answers.correctAnswers.correct[counter3]);
         clearInterval(intervalID);
-        $("#answerChoices").html(gameInfo.gifs[counter4]);
+        $("#gif").show().html(gameInfo.gifs[counter4]);
+        $(".answers").hide();
+        $("#answerChoices").hide();
+        setTimeout(game, 5000);
     }
 
     // function that says "Correct!" if correct answer is selected
     function correctAnswerAlert() {
         $("#question").text("You Got It!");
         clearInterval(intervalID);
-        $("#answerChoices").html(gameInfo.correctGifs[counter5]);
+        $("#gif").show().html(gameInfo.correctGifs[counter5]);
+        $(".answers").hide();
+        $("#answerChoices").hide();
+        setTimeout(game, 5000);
     }
 
 
@@ -166,9 +175,10 @@ $(document).ready(function () {
     function timesUp() {
         clearInterval(intervalID);
         $("#question").text("Time's Up!");
-        $("#correctAnswer").text("Correct Answer: " + gameInfo.answers.correctAnswers.correct[counter3]);
+        $("#correctAnswer").show().text("Correct Answer: " + gameInfo.answers.correctAnswers.correct[counter3]);
+        $("#gif").show().html(gameInfo.gifs[counter6]);
         $(".answers").hide();
-        $("#answerChoices").html(gameInfo.gifs[counter6]);
+        $("#answerChoices").hide();
     }
 
     // timer function; displays timesUp() after timer hits 0
@@ -180,7 +190,8 @@ $(document).ready(function () {
         }
         if (time === 0) {
             timesUp();
-            setTimeout(game, 5000);
+            setTimeout(game, 1000);
+            wrong = wrong++;
         }
     }
 
@@ -188,8 +199,12 @@ $(document).ready(function () {
     // resets time, question, answers, and gifs for each right/wrong answer
     function game() {
         intervalID = setInterval(timer, 1000);
-        time = 5;
+        time = 21;
+        $("#startGame").hide();
+        $("#correctAnswer").hide();
+        $("#gif").hide();
         $(".answers").show();
+        $("#answerChoices").show();
         timer();
         question();
         answers();
@@ -200,12 +215,21 @@ $(document).ready(function () {
     }
 
     // code is correct
-    $("#startGame").on("click", function () {
+    $("#startGame").show().on("click", function () {
         game();
         counter3 = 0;
         counter5 = 0;
         counter4 = 0;
         counter6 = 0;
     });
+
+    function endGame() {
+        $("#timer").hide();
+        clearInterval(intervalID);
+        $("#question").text("Game Over!");
+        $(".answers").hide();
+        $("#answerChoices").hide();
+        // $("#playAgain").show();   
+    }
 
 });
