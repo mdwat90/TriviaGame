@@ -71,10 +71,10 @@ $(document).ready(function () {
             '<img src="https://media.giphy.com/media/1136UBdSNn6Bu8/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/tyxovVLbfZdok/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/u33BcMbqQmJGg/giphy.gif" width="325" height="200" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/qmEboC2VVjBgQ/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/YXpp9YxWhyWBy/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/PTrmNrpCfGBUY/giphy.gif" width="325" height="225" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/3rgXBQBQyt98Dvh1sI/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/4uPjyGbLJMOxa/giphy.gif" width="325" height="200" alt="loading..." />',
         ]
     };
 
@@ -97,7 +97,7 @@ $(document).ready(function () {
         $("#question").text(gameInfo.questions[counter]);
         counter++;
         counter1++;
-        console.log(counter1);
+        // console.log(counter1);
         if(counter1 === 11) {
             endGame();
         }
@@ -132,7 +132,6 @@ $(document).ready(function () {
         $("#answerChoices").hide();
         setTimeout(game, 5000);
     }
-
 
     $("#answer1").click(function() {
         if($("#answer1").val() === "true") {
