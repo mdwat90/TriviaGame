@@ -74,7 +74,7 @@ $(document).ready(function () {
             '<img src="https://media.giphy.com/media/YXpp9YxWhyWBy/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/PTrmNrpCfGBUY/giphy.gif" width="325" height="225" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/4uPjyGbLJMOxa/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/yoJC2COHSxjIqadyZW/giphy.gif" width="325" height="200" alt="loading..." />',
         ]
     };
 
@@ -98,7 +98,7 @@ $(document).ready(function () {
         counter++;
         counter1++;
         // console.log(counter1);
-        if(counter1 === 11) {
+        if(counter1 === 2) {
             endGame();
         }
     }
@@ -226,9 +226,9 @@ $(document).ready(function () {
         $("#timer").hide();
         clearInterval(intervalID);
         $("#question").text("Game Over!");
-        $(".answers").hide();
-        $("#answerChoices").hide();
-        // $("#playAgain").show();   
+        // $(".answers").hide();
+        // $("#answerChoices").hide();
+        $("#playAgain").show();   
     }
 
 });
