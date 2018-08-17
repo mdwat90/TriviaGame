@@ -74,7 +74,7 @@ $(document).ready(function () {
             '<img src="https://media.giphy.com/media/YXpp9YxWhyWBy/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/xTiTnw6Yg5nzWwQh5C/giphy.gif" width="325" height="200" alt="loading..." />',
             '<img src="https://media.giphy.com/media/PTrmNrpCfGBUY/giphy.gif" width="325" height="225" alt="loading..." />',
-            '<img src="https://media.giphy.com/media/yoJC2COHSxjIqadyZW/giphy.gif" width="325" height="200" alt="loading..." />',
+            '<img src="https://media.giphy.com/media/Md4xQfuJeTtx6/giphy.gif" width="325" height="200" alt="loading..." />',
         ]
     };
 
@@ -136,37 +136,37 @@ $(document).ready(function () {
     $("#answer1").click(function() {
         if($("#answer1").val() === "true") {
             intervalID2 = setInterval(correctAnswerAlert(), 5000);
-            correct = correct++;
+            correct++;
         } else {
             intervalID2 = setInterval(wrongAnswerAlert(), 5000);
-            wrong = wrong++;
+            wrong++;
         }
    });
     $("#answer2").click(function() {
         if($("#answer2").val() === "true") {
             intervalID2 = setInterval(correctAnswerAlert(), 5000);
-            correct = correct++;
+            correct++;
         } else {
             intervalID2 = setInterval(wrongAnswerAlert(), 5000);
-            wrong = wrong++;
+            wrong++;
         }
    });
     $("#answer3").click(function() {
         if($("#answer3").val() === "true") {
             intervalID2 = setInterval(correctAnswerAlert(), 5000);
-            correct = correct++;
+            correct++;
         } else {
             intervalID2 = setInterval(wrongAnswerAlert(), 5000);
-            wrong = wrong++;
+            wrong++;
         }
    });
     $("#answer4").click(function() {
         if($("#answer4").val() === "true") {
             intervalID2 = setInterval(correctAnswerAlert(), 5000);
-            correct = correct++;
+            correct++;
         } else {
             intervalID2 = setInterval(wrongAnswerAlert(), 5000);
-            wrong = wrong++;
+            wrong++;
         }
    });
 
@@ -226,9 +226,21 @@ $(document).ready(function () {
         $("#timer").hide();
         clearInterval(intervalID);
         $("#question").text("Game Over!");
-        // $(".answers").hide();
-        // $("#answerChoices").hide();
-        $("#playAgain").show();   
+        $("#correctAnswer").show().html("<p>" + "You got " + correct + " correct" + "</p>" + " You got " + wrong + " wrong");
+        $(".answers").hide();
+        $("#answerChoices").hide();
+        $("#playAgain").show();
+        $("#playAgain").on("click", function() {
+            counter = 0;
+            counter1 = 0;
+            counter2 = 0;
+            game();
+            counter3 = 0;
+            counter5 = 0;
+            counter4 = 0;
+            counter6 = 0;
+            $("#playAgain").hide();
+        });
     }
 
 });

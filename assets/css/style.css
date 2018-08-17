@@ -35,3 +35,11 @@ h1 {
     border: none;
     margin: 10px;
 }
+
+#playAgain {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
