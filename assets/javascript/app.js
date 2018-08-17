@@ -189,7 +189,7 @@ $(document).ready(function () {
         }
         if (time === 0) {
             timesUp();
-            setTimeout(game, 1000);
+            setTimeout(game, 5000);
             wrong = wrong++;
         }
     }
