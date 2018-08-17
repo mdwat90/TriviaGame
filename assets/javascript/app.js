@@ -231,6 +231,8 @@ $(document).ready(function () {
         $("#answerChoices").hide();
         $("#playAgain").show();
         $("#playAgain").on("click", function() {
+            correct = 0;
+            wrong = 0;
             counter = 0;
             counter1 = 0;
             counter2 = 0;
