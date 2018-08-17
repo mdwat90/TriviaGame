@@ -98,7 +98,7 @@ $(document).ready(function () {
         counter++;
         counter1++;
         // console.log(counter1);
-        if(counter1 === 2) {
+        if(counter1 === 11) {
             endGame();
         }
     }
