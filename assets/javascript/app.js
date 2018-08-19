@@ -204,6 +204,7 @@ $(document).ready(function () {
         $("#gif").hide();
         $(".answers").show();
         $("#answerChoices").show();
+        $("#timer").show();
         timer();
         question();
         answers();
